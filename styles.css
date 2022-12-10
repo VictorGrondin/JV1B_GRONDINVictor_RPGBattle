@@ -1,0 +1,50 @@
+
+body {
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center center;
+
+}
+
+
+
+
+  
+#scene{
+    display:flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+}
+
+#personnages{
+    display:flex;
+    flex-direction: column;
+
+}
+
+#ennemis{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+
+    
+   
+
+#boutons{
+    display: block;
+  width: 150;
+  border: none;
+  background-color: #748680;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+  justify-content:flex-end;
+}
+
+
+    
+    
